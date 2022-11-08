@@ -271,7 +271,7 @@ const Signup = () => {
         //object destruction so dont need to write user.name etc again and again
         const { name, email, ccode, phone, day, month, year, timetaken, checkone, checktwo, checkthree} = user;
         
-        const res = await fetch("https://sailgpserver.herokuapp.com/register", {
+        const res = await fetch("https://sailgp2server.herokuapp.com/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

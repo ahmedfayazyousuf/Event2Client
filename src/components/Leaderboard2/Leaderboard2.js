@@ -64,7 +64,7 @@ const Leaderboard2 = () => {
         //object destruction so dont need to write user.name etc again and again
 
         
-        const res = await fetch(`https://sailgpserver.herokuapp.com/api/getAll`, {
+        const res = await fetch(`https://sailgp2server.herokuapp.com/api/getAll`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
