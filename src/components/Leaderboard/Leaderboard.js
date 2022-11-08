@@ -123,8 +123,9 @@ const Profile = () => {
                                 }}>
                                     <img src={Logo1} alt="Logo" 
                                     style={{
-                                        width: '80%',  
-                                        marginBottom: '10%'
+                                        width: '50%',  
+                                        marginBottom: '5%',
+                                        marginTop: '5%'
                                     }}
                                     />
                                 </div>
