@@ -100,9 +100,20 @@ const Profile = () => {
 
     return (
         <>
-            <div className="form-body">
-                <div className="row">
-                    <div className="form-holder">
+            <div className="form-body" style={{
+                width:'100%',
+                height:'100%',
+            }}>
+                <div className="row"
+                style={{
+                    width:'100%',
+                    height:'100%',
+                }}>
+                    <div className="form-holder"
+                    style={{
+                        width:'100%',
+                        height:'100%',
+                    }}>
                         <div className="form-content">
                             <div className="form-items" >
                             <div
@@ -112,8 +123,8 @@ const Profile = () => {
                                 }}>
                                     <img src={Logo1} alt="Logo" 
                                     style={{
-                                        width: '80%',
-                                        marginBottom: '100px',  
+                                        width: '80%',  
+                                        marginBottom: '10%'
                                     }}
                                     />
                                 </div>
@@ -134,7 +145,7 @@ const Profile = () => {
                                     }}>
                                         <td style={{
                                             fontWeight: '700',
-                                            fontSize:'50px',
+                                            fontSize: "3vh"
                                         }}>
                                             NAME 
                                             
@@ -143,7 +154,7 @@ const Profile = () => {
 
                                         <td style={{
                                             fontWeight: '700',
-                                            fontSize:'50px',
+                                            fontSize: "3vh"
                                         }}>
                                             TIME SCORE
                                         </td>
@@ -154,10 +165,10 @@ const Profile = () => {
                                             return(
                                                 <tr>
                                         <td style={{
-                                            fontSize:'50px',
+                                            fontSize: "3vh"
                                         }}>{d.name}</td>
                                         <td style={{
-                                            fontSize:'50px',
+                                            fontSize: "3vh"
                                         }}>{d.timetaken}</td>
                                         </tr>
                                             )
