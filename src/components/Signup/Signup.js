@@ -17,7 +17,7 @@ const Signup = () => {
     const [dayB, setDayB] = useState(false);
     const [monthB, setMonthB] = useState(false);
     const [yearB, setYearB] = useState(false);
-    const [user,setUser] = useState({
+    const [user,setUser] = useState({ 
         name:"",email:"",ccode:"(+971) UAE",phone:"", day:"", month:"", year:"", timetaken:0, checkone:false, checktwo:false, checkthree:false
     });
 
@@ -786,7 +786,7 @@ const Signup = () => {
                                         }}>
                                             <div
                                             style={{
-                                                width: '50%',
+                                                width: '47.5%',
                                             }}>
                                                 <Link to="/">
                                                     <button 
@@ -801,13 +801,17 @@ const Signup = () => {
                                                     </button>
                                                 </Link>
                                             </div>
+                                                    
+                                                    <div style={{width:'5px'}}></div>
+
+
 
                                             <button
                                             onClick={PostData}
                                             id = "btn"
                                             style={{
                                                 display:"flex",
-                                                width: '50%',
+                                                width: '47.5%',
                                                 backgroundColor: 'white',
                                                 fontWeight: '1000',
                                                 margin: '0',
@@ -821,6 +825,8 @@ const Signup = () => {
                                             </button>
 
                                         </div>
+
+                                        <p style={{fontSize: '60%', lineHeight: '10px', marginTop: '20px'}}><i style={{color:'grey'}}>By clicking ‘submit’, I acknowledge that I accept full responsibility for my health and safety taking part in this activity</i></p>
                                         <br></br>
 
 
