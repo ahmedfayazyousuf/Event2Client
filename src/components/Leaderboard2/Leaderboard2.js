@@ -165,7 +165,7 @@ const Leaderboard2 = () => {
                                     textAlign: 'center',
                                     marginTop: '40px',
                                 }}>
-                                    <a href="https://adminsailgp.vercel.app"
+                                    <a href="https://adminsailgp2.vercel.app"
                                     style={{
                                         paddingRight: '55px',
                                         paddingLeft: '55px',
